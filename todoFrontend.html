@@ -1,0 +1,37 @@
+<html>
+<head>
+	<link rel="stylesheet" href="frontendcss.css">
+	<script type="text/javascript" src="todofrontend.js"></script>
+	</head>
+	<body>
+		<header>
+		</header>
+		<div class="search">
+			<input type="text" placeholder="Search User">
+			<button type="submit">Search</button>
+		</div>
+		<div class="container">
+			<div class="navigation">
+				<ul>
+					<li><button class="navigation-button button1" >User</button></li>
+					<li><button class="navigation-button button2">Data</button></li>
+					<li><button class="navigation-button button3">Data</button></li>
+					<li><button class="navigation-button button4">Data</button></li>
+				</ul>
+			</div>
+			<textarea id="table" class="textArea">
+			</textarea>
+			<div class="addNewTask">
+				<input id="key">
+				</input>
+				<input id="value">
+				</input>
+				<ul class="operator">
+					<li><button onclick="setData()" class="operators">Add Task</button></li>
+					<li><button onclick="renderTable()" class="operators">Show Tasks</button></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
+ 
