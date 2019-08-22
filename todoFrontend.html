@@ -5,33 +5,35 @@
 	</head>
 	<body>
 		<header>
+			<h1>CREATE TODO</h1>
 		</header>
-		<div class="search">
-			<input type="text" placeholder="Search User">
-			<button type="submit">Search</button>
-		</div>
+		<hr>
 		<div class="container">
 			<div class="navigation">
 				<ul>
-					<li><button class="navigation-button button1" >User</button></li>
-					<li><button class="navigation-button button2">Data</button></li>
-					<li><button class="navigation-button button3">Data</button></li>
-					<li><button class="navigation-button button4">Data</button></li>
+					<li><button class="navigation-button button1" >user</button></li>
+					<li><button class="navigation-button button2">data</button></li>
+					<li><button class="navigation-button button3">data</button></li>
+					<li><button class="navigation-button button4">data</button></li>
 				</ul>
 			</div>
-			<textarea id="table" class="textArea">
-			</textarea>
+
+			<div class="textArea">
+				<table class="table" id="table">
+				</table>
+			</div>
 			<div class="addNewTask">
-				<input id="key">
+				<input id="key" placeholder="Add Task">
 				</input>
-				<input id="value">
+				<input id="value" placeholder="Description">
 				</input>
 				<ul class="operator">
-					<li><button onclick="setData()" class="operators">Add Task</button></li>
-					<li><button onclick="renderTable()" class="operators">Show Tasks</button></li>
+					<li><button class="mains" onclick="setData()" class="operators">add</button></li>
+					<li><button class="mains" onclick="renderTable()" class="operators">show</button></li>
 				</ul>
 			</div>
 		</div>
+		<hr>
 	</body>
 </html>
  
