@@ -1,0 +1,43 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+nav a{
+	color:white;
+	background-color: #337799;
+	display:block;
+	font-family: laot;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	transition: background 0.4s;
+	padding:20px;
+
+}
+
+nav a:hover{
+	background-color: #339999;
+}
+
+nav ul{
+	list-style: none;
+	display: flex;
+}
+nav li{
+	width:100%;
+	text-align: center;
+	position:relative;
+}
+nav li:hover .dropdown-content>li{
+	 display:block;
+}
+.dropdown-content li{
+	display:none;
+}
+
+.dropdown-content{
+	 display:flex;
+	 flex-direction: column;
+}
